@@ -1,0 +1,13 @@
+export let camisetas = [
+
+    { id: 1, nombre: "camisetaAdo1", descripcion: "Clasica y comoda", precioBase: 20, tallas: ["XS", "S", "M", "L", "XL"], colores: ["negro", "blanco", "gris"], cantidad: 15, tags: ["clasico"], colorImagen: [{ color: "negro", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "blanco", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "gris", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }] },
+
+    { id: 2, nombre: "camisetaAdo2", descripcion: "Chulisima", precioBase: 24, tallas: ["XS", "S", "L", "XL"], colores: ["rojo", "azul", "verde"], cantidad: 8,tags: ["nuevo", "popular"], colorImagen: [{ color: "rojo", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "azul", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "verde", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }] },
+
+    { id: 3, nombre: "camisetaAdo3", descripcion: "Deportiva y moderna", precioBase: 28, tallas: ["S", "M", "L", "XL", "2XL"], colores: ["blanco", "naranja", "morado"], cantidad: 12, tags: ["deportiva", "moderno"], colorImagen: [{ color: "blanco", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "naranja", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "morado", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }] },
+
+    { id: 4, nombre: "camisetaAdo4", descripcion: "Premium quality", precioBase: 32, tallas: ["M", "L", "XL"], colores: ["turquesa", "rosa", "amarillo"], cantidad: 6, tags: ["premium"], colorImagen: [{ color: "turquesa", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "rosa", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "amarillo", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }] },
+
+    { id: 5, nombre: "camisetaAdo5", descripcion: "Comodidad garantizada", precioBase: 22, tallas: ["XS", "S", "M", "L"], colores: ["verde", "marron", "gris"], cantidad: 18, tags: ["comodo"], colorImagen: [{ color: "verde", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "marron", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }, { color: "gris", imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_661769-MLA48244108628_112021-F.webp" }] }
+
+]
