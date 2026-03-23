@@ -25,4 +25,3 @@ let comandas = [
         ]
     }]
 
-export default comandas;
