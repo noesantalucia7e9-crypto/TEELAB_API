@@ -4,9 +4,7 @@
     "express": "^5.2.1",
     "nodemon": "^3.1.14"
   },
-  "scripts":{
-    "dev":"nodemon Server.js"
+  "scripts": {
+    "dev": "nodemon Server.js"
   }
 }
-
-

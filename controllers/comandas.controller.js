@@ -13,4 +13,5 @@ export function getById(req, res) {
     }
 }
 export function create(req, res) {
+    comandasService.create(req, res);
 }

@@ -5,5 +5,5 @@ export function getCatalogo() {
 }
 
 export function getById(id) {
-    return camisetas.find(i => i.id === Number(id));
+    return camisetas.find(i => String(i.id) === String(id));
 }

@@ -3,7 +3,7 @@ let listaTickets = [
 
 ]
 
-class Ticket {
+export class Ticket {
     
     constructor(id, fecha, estado) {
         this.id = id;
@@ -14,7 +14,7 @@ class Ticket {
     }
 
     calcularTotal() {
-        this.total = this.items.reduce((elemento, item) => elemento + item.precio * item.cantidad, 0);
+        this.total = this.items.reduce((acc, item) => acc + item.subtotal, 0);
     }
 }
 
